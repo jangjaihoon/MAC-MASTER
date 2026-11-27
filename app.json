@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "household-budget",
+    "name": "가계부",
     "slug": "household-budget",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,7 +18,15 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "가계부",
+      "shortName": "가계부",
+      "description": "가족 가계부 앱",
+      "themeColor": "#007AFF",
+      "backgroundColor": "#F2F2F7",
+      "display": "standalone",
+      "orientation": "portrait",
+      "lang": "ko"
     }
   }
 }
