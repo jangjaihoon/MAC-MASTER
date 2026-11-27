@@ -1,0 +1,37 @@
+{
+  "automations": [
+    {
+      "id": "auto-001",
+      "taskId": "task-001",
+      "name": "공문 초안 자동 생성 프롬프트",
+      "level": "template",
+      "status": "planned",
+      "estimatedMinutesSaved": 20,
+      "actualMinutesSaved": null,
+      "implementedAt": null,
+      "description": "수신처, 제목, 요지를 입력하면 Claude가 공문 초안을 생성"
+    },
+    {
+      "id": "auto-002",
+      "taskId": "task-005",
+      "name": "자주 묻는 문의 회신 템플릿",
+      "level": "template",
+      "status": "planned",
+      "estimatedMinutesSaved": 15,
+      "actualMinutesSaved": null,
+      "implementedAt": null,
+      "description": "FAQ 유형별 표준 회신 문구 라이브러리 구축"
+    },
+    {
+      "id": "auto-003",
+      "taskId": "task-003",
+      "name": "월별 실적 보고서 체크리스트",
+      "level": "checklist",
+      "status": "planned",
+      "estimatedMinutesSaved": 30,
+      "actualMinutesSaved": null,
+      "implementedAt": null,
+      "description": "데이터 수집 → 표 작성 → 검토 → 제출 단계별 가이드"
+    }
+  ]
+}

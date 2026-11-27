@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "name": "공문 작성 및 발송",
+      "category": "행정보고",
+      "frequency": "daily",
+      "frequencyPerMonth": 20,
+      "minutesPerOccurrence": 30,
+      "initiator": "self",
+      "requiresJudgment": false,
+      "painPoint": "반복적인 양식 채우기, 수신처 관리",
+      "automationPotential": "high"
+    },
+    {
+      "id": "task-002",
+      "name": "융자 신청서 검토",
+      "category": "융자심사",
+      "frequency": "weekly",
+      "frequencyPerMonth": 8,
+      "minutesPerOccurrence": 60,
+      "initiator": "other",
+      "requiresJudgment": true,
+      "painPoint": "서류 누락 확인에 시간 소요",
+      "automationPotential": "medium"
+    },
+    {
+      "id": "task-003",
+      "name": "월별 실적 보고서 작성",
+      "category": "행정보고",
+      "frequency": "monthly",
+      "frequencyPerMonth": 1,
+      "minutesPerOccurrence": 120,
+      "initiator": "self",
+      "requiresJudgment": false,
+      "painPoint": "데이터 수집 및 표 작성 반복",
+      "automationPotential": "high"
+    },
+    {
+      "id": "task-004",
+      "name": "무상지원 계획 수립 서류",
+      "category": "무상지원",
+      "frequency": "monthly",
+      "frequencyPerMonth": 2,
+      "minutesPerOccurrence": 90,
+      "initiator": "self",
+      "requiresJudgment": true,
+      "painPoint": "전년도 자료 찾아보는 시간",
+      "automationPotential": "medium"
+    },
+    {
+      "id": "task-005",
+      "name": "기관 문의 응대 및 회신",
+      "category": "기타",
+      "frequency": "daily",
+      "frequencyPerMonth": 15,
+      "minutesPerOccurrence": 20,
+      "initiator": "other",
+      "requiresJudgment": false,
+      "painPoint": "비슷한 문의에 매번 새로 작성",
+      "automationPotential": "high"
+    }
+  ],
+  "updatedAt": "2026-06-14"
+}
